@@ -147,3 +147,67 @@ header .container {
     height: 580px;
     
 }
+
+/* Styles: section About */
+.about{
+    background: var(--background);
+}
+.about .container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apple-wrapper{
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-title{
+    width: 526px;
+    font-size: 42px;
+    line-height: calc(50/42);
+    margin-bottom: 20px;
+}
+.about-text{
+    width: 500px;
+    font-size: 16px;
+    line-height: calc(24/16);
+    margin-bottom: 40px;
+}
+.about-list{
+    display: flex;
+    gap: 67px;
+    margin-bottom: 32px;
+}
+.about-list-title{
+    font-size: 18px;
+    line-height: calc(25/18);
+    color: var(--main-text);
+    margin-bottom: 16px;
+}
+.about-list-desc{
+    width: 253px;
+    font-size: 14px;
+    line-height: calc(21/14);
+    color: var(--main-text);
+}
+.about-button{
+    background-color: var(--main-background);
+    color: var(--main-text);
+    padding: 10px 22px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: calc(20/13);
+    border-radius: 30px;
+    border: 2px solid var(--border-button);
+}
+
+.about-button:hover,
+.about-button:focus {
+    background-color:var(--main-button);
+}

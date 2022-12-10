@@ -1,0 +1,101 @@
+:root {
+    --main-button:#BBF330;
+    --border-button:#7EB101;
+    --background:#FFE550;
+    --main-text:#2C2C2C;
+    --main-background:#FEFEFE;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4, p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    background-color: var(--main-background);
+    color: var(--main-text);
+}
+
+button {
+font-family: inherit;
+cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1280px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navigation-list {
+    display: flex;
+}
+
+.nav-link {
+    font-size: 14px;
+    line-height: calc(16/14);
+    color: var(--main-text);
+    padding-top: 28px;
+    padding-bottom: 28px;
+    display: block;
+}
+
+.nav-list-item:not(:last-child) {
+    margin-right: 28px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--main-button);
+}
+
+.current {
+    text-decoration: underline;
+    color: var(--main-button);
+}
+
+.header-button {
+    background-color: var(--main-button);
+    color: var(--main-text);
+    padding: 6px 18px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: calc(20/13);
+    border-radius: 30px;
+    border:none;
+    margin-left: 30px;
+
+}
+
+.header-button:hover,
+.header-button:focus {
+    background-color: #FFE450;;
+}

@@ -99,3 +99,51 @@ header .container {
 .header-button:focus {
     background-color: #FFE450;;
 }
+
+/* Hero section */
+
+.hero {
+    
+}
+.hero .container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-tittle {
+    font-size: 48px;
+    line-height: calc(58/48);
+    color:var(--main-text);
+    width: 502px;
+    margin-bottom: 28px;
+}
+.hero-text {
+    font-size: 16px;
+    line-height: calc(24/16);
+    width: 502px;
+    margin-bottom: 40px;
+}
+.order-button {
+    background-color: var(--main-button);
+    color: var(--main-text);
+    padding: 6px 18px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: calc(20/13);
+    border-radius: 30px;
+    border:none;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #FFE450;;
+}
+
+.img-wrapper{
+    border: 26px solid var(--background);
+    border-radius: 50%;
+    width: 580px;
+    height: 580px;
+    
+}
